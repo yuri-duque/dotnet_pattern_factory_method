@@ -9,6 +9,8 @@ namespace Factory_Method
     {
         static void Main(string[] args)
         {
+            // EU NÃO CRIARIA UM FACTORY PARA CADA TIPO DE CARTÃO, E SIM UM FACTORY E DENTRO DELE COLOCARIA A RESPONSABILIDADE (switch case) DE CRIAR OS TIPOS
+
             CartaoFactory cartaoFactory = null;
             Console.WriteLine("Digite o tipo de cartão que gostaria de obter:");
             string tipoCartao = Console.ReadLine();
